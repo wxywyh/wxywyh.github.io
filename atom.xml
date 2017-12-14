@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-11T08:26:01.779Z</updated>
+  <updated>2017-12-14T01:22:39.457Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>安装Android Studio走过的路</title>
+    <link href="http://yoursite.com/2017/12/14/%E5%AE%89%E8%A3%85Android-Studio%E8%B5%B0%E8%BF%87%E7%9A%84%E8%B7%AF/"/>
+    <id>http://yoursite.com/2017/12/14/安装Android-Studio走过的路/</id>
+    <published>2017-12-14T01:13:16.000Z</published>
+    <updated>2017-12-14T01:22:39.457Z</updated>
+    
+    <content type="html"><![CDATA[<p>###前言<br>都说走过最长的路是你的套路，我想说安装Android Studio走过的路是我走过最长的套路。</p><p>###</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;###前言&lt;br&gt;都说走过最长的路是你的套路，我想说安装Android Studio走过的路是我走过最长的套路。&lt;/p&gt;
+&lt;p&gt;###&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>我的博客</title>
     <link href="http://yoursite.com/2017/12/06/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/12/06/我的博客/</id>
     <published>2017-12-06T14:20:57.000Z</published>
-    <updated>2017-12-11T08:26:01.779Z</updated>
+    <updated>2017-12-11T11:23:16.222Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这是一个测试<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这里贴代码</span><br><span class="line"></span><br><span class="line">public void static main()&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>阅读全文<br><a id="more"></a></p><h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p><img src="/images/wxy.png" alt="这是一个测试"><br><img src="/images/wxy.png" width="50%" height="50%" align="center/"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>这是一个测试<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">这里贴代码</span><br><span class="line"></span><br><span class="line">public void static main()&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>阅读全文<br><a id="more"></a></p><h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p><img src="/images/wxy.png" alt="这是一个测试"><br><img src="/images/wxy.png" width="50%" height="50%" align="center/"></p><p>###</p>]]></content>
     
     <summary type="html">
     
