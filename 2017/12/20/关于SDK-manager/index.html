@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="eclipse," />
 
 
 
@@ -83,13 +83,19 @@
 
 
 
+<meta name="description" content="前言最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。 现象突然之间，打不开eclipse的SDK manager了，给出的报错如下，网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，">
+<meta name="keywords" content="eclipse">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于SDK manager">
 <meta property="og:url" content="http://yoursite.com/2017/12/20/关于SDK-manager/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:updated_time" content="2017-12-20T01:21:04.713Z">
+<meta property="og:description" content="前言最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。 现象突然之间，打不开eclipse的SDK manager了，给出的报错如下，网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，">
+<meta property="og:image" content="http://yoursite.com/images/SDK1.PNG">
+<meta property="og:updated_time" content="2017-12-20T02:47:38.308Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于SDK manager">
+<meta name="twitter:description" content="前言最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。 现象突然之间，打不开eclipse的SDK manager了，给出的报错如下，网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，">
+<meta name="twitter:image" content="http://yoursite.com/images/SDK1.PNG">
 
 
 
@@ -185,7 +191,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -195,7 +201,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -259,7 +265,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-20T09:21:04+08:00">
                 2017-12-20
@@ -299,7 +305,11 @@
       
 
       
-        
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。</p>
+<h3 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h3><p>突然之间，打不开eclipse的SDK manager了，给出的报错如下，<br><img src="/images/SDK1.PNG" alt=""><br>网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，一直在怀疑自己。</p>
+<h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>更深入的研究之后，发现原因是这样，eclipse和Android studio用的是同一个SDK，而Android studio导致之前的SDK文件夹里面缺失了很多文件，eclipse用不了这样的SDK。</p>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>重新下载SDK，将新的SDK与eclipse绑定。</p>
+
       
     </div>
     
@@ -313,6 +323,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/eclipse/" rel="tag"># eclipse</a>
+          
+        </div>
       
 
       
@@ -383,8 +399,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -400,7 +425,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">Artikel</span>
+                  <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
@@ -412,8 +437,8 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">Tags</span>
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">tags</span>
                 
               </div>
             
@@ -445,6 +470,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#现象"><span class="nav-number">2.</span> <span class="nav-text"><a href="#&#x73B0;&#x8C61;" class="headerlink" title="&#x73B0;&#x8C61;"></a>&#x73B0;&#x8C61;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#原因"><span class="nav-number">3.</span> <span class="nav-text"><a href="#&#x539F;&#x56E0;" class="headerlink" title="&#x539F;&#x56E0;"></a>&#x539F;&#x56E0;</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解决方法"><span class="nav-number">4.</span> <span class="nav-text"><a href="#&#x89E3;&#x51B3;&#x65B9;&#x6CD5;" class="headerlink" title="&#x89E3;&#x51B3;&#x65B9;&#x6CD5;"></a>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -468,7 +509,7 @@
 </div>
 
 
-  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
