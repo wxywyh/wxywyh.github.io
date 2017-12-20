@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-20T02:47:38.308Z</updated>
+  <updated>2017-12-20T02:48:45.937Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,16 +21,13 @@
     <link href="http://yoursite.com/2017/12/20/%E5%85%B3%E4%BA%8ESDK-manager/"/>
     <id>http://yoursite.com/2017/12/20/关于SDK-manager/</id>
     <published>2017-12-20T01:21:04.000Z</published>
-    <updated>2017-12-20T02:47:38.308Z</updated>
+    <updated>2017-12-20T02:48:45.937Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。</p><h3 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h3><p>突然之间，打不开eclipse的SDK manager了，给出的报错如下，<br><img src="/images/SDK1.PNG" alt=""><br>网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，一直在怀疑自己。</p><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>更深入的研究之后，发现原因是这样，eclipse和Android studio用的是同一个SDK，而Android studio导致之前的SDK文件夹里面缺失了很多文件，eclipse用不了这样的SDK。</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>重新下载SDK，将新的SDK与eclipse绑定。</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。<br><a id="more"></a></p><h3 id="现象"><a href="#现象" class="headerlink" title="现象"></a>现象</h3><p>突然之间，打不开eclipse的SDK manager了，给出的报错如下，<br><img src="/images/SDK1.PNG" alt=""><br>网上得票最高的解答居然是缺少traceview.bat文件，然后给出了下载网址，下载完放到文件夹中之后并没有解决问题，一直在怀疑自己。</p><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p>更深入的研究之后，发现原因是这样，eclipse和Android studio用的是同一个SDK，而Android studio导致之前的SDK文件夹里面缺失了很多文件，eclipse用不了这样的SDK。</p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>重新下载SDK，将新的SDK与eclipse绑定。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google p
-      
+      &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;最近感觉诸事不顺，昨天eclipse的SDK manager一直打不开，很是奇怪，在我一番探索之下，终于解决，下一步就是解决google play services的问题了。为了记录，写下这篇博客。&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
