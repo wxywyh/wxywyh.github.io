@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-26T03:01:57.891Z</updated>
+  <updated>2017-12-27T03:17:58.204Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;java的类与对象&#39;</title>
+    <link href="http://yoursite.com/2017/12/27/java%E7%9A%84%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://yoursite.com/2017/12/27/java的类与对象/</id>
+    <published>2017-12-27T02:53:53.000Z</published>
+    <updated>2017-12-27T03:17:58.204Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>身为一个连类和对象都不明白的小白，觉得自己不能再自甘堕落了啊，决定把类与对象给整明白咯。</p><h3 id="Java的类"><a href="#Java的类" class="headerlink" title="Java的类"></a>Java的类</h3><p>类是用来构造对象的模板，比如我是女生，女生可以作为类存在，又比如电脑，桌子，椅子，这都可以看做类。<br>类的格式如下：<br>‘’’<br>public class 类名()<br>{<br>    //属性<br>    访问修饰符 数据类型 变量名；<br>    //方法<br>    访问修饰符 返回值类型 方法名(数据类型 参数名，…){<br>}<br>}<br>‘’’</p><h3 id="Java的对象"><a href="#Java的对象" class="headerlink" title="Java的对象"></a>Java的对象</h3><p>对象是由类构造的，比如我是女生的一个对象，我的电脑是电脑类中的一个对象，同理。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;身为一个连类和对象都不明白的小白，觉得自己不能再自甘堕落了啊，决定把类与对象给整明白咯。&lt;/p&gt;
+&lt;h3 id=&quot;Java的类&quot;&gt;&lt;a hr
+      
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>google play services 应用</title>
